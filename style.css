@@ -1,0 +1,172 @@
+/*colors used
+#f1c768 
+#f3cd78
+#f6d896
+#f7dea5
+#f8e3b4
+#fae9c3
+#fbefd2
+#fdf4e1
+#fefaf0
+#f4f2f6
+#61262c
+#962433
+#20262b
+#343439
+*/
+
+body {
+  background-color: #f6d896;
+  font-family: "Marvel", sans-serif;
+  font-size: 62.5%;
+  height: auto;
+}
+.div-1 {
+  border-radius: 12px 12px 45px;
+  height: auto;
+  width: auto;
+  background: linear-gradient(to right bottom, #fdf4e1, #fefaf0, #f4f2f6);
+  box-shadow: 3px 3px rgb(150, 36, 51, 0.3);
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 4.5rem;
+  font-weight: 200;
+  letter-spacing: 1rem;
+
+  text-align: center;
+  transform: rotate(-4deg);
+  padding-top: 2.5rem;
+  padding-bottom: 0rem;
+  margin-bottom: 0;
+  color: #61262c;
+  text-shadow: 2px 2px 8px rgb(32, 38, 43, 0.3);
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  padding-left: 7rem;
+  margin-top: 0.5rem;
+  color: #20262b;
+  text-shadow: 1px 1px 4px rgb(150, 36, 51, 0.3);
+}
+
+hr {
+  margin: 3rem;
+  border-top: 1px solid #f1c768;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.left-column {
+  height: auto;
+  width: 50%;
+}
+
+.right-column {
+  height: auto;
+  width: 50%;
+}
+
+.characters {
+  padding-top: 0;
+  padding: 1rem;
+  padding-bottom: 2rem;
+}
+img {
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: 5rem;
+  height: auto;
+  margin-bottom: 2rem;
+  border-radius: 12px 12px 45px;
+  box-shadow: 3px 3px rgb(150, 36, 51, 0.3);
+}
+
+.help-wanted {
+  display: block;
+  letter-spacing: 0.09rem;
+  font-size: 1.5rem;
+ padding-top: 2rem;
+  margin-left: 5rem;
+  margin-bottom: 2rem;
+
+}
+.indent {
+    text-indent: 1.5rem;
+}
+
+.secondText {
+    font-size: 1.5rem;
+}
+.normal {
+    font-size: 1.5rem;
+}
+.fP{
+    color: #962433;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.makeSmall {
+    font-size: 5px;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #61262c;
+}
+
+button {
+  padding: 1.5rem;
+  letter-spacing: 0.05rem;
+  background-color: #f3cd78;
+  color: #962433;
+  text-shadow: 1px 1px 4px rgb(150, 36, 51, 0.5);
+  border-radius: 12px 12px 0px 12px;
+  border: #f1c768;
+  outline: none;
+  margin-top: 4rem;
+  font-size: 1rem;
+}
+
+.clickMe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button .more {
+  display: none;
+}
+button:hover .intrested {
+  display: none;
+}
+button:hover .more {
+  display: inline;
+}
+
